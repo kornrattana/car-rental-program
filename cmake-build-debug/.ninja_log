@@ -1,0 +1,15 @@
+# ninja log v5
+12	5214	6766629956129792	CMakeFiles/dbdemo.dir/sqlite3.c.obj	a3447b2517c12385
+4	344	6766642760996450	CMakeFiles/dbdemo.dir/main.cpp.obj	d8ae632bb1b99bae
+345	517	6766642762716775	dbdemo.exe	4ecfa59c868504a2
+4	411	6766656268907330	CMakeFiles/dbdemo.dir/main.cpp.obj	610b8bc65aa92bf
+15	5527	6766656319990727	CMakeFiles/dbdemo.dir/sqlite3.c.obj	bfdbe938aaddf697
+5527	5677	6766656321551128	dbdemo.exe	4ecfa59c868504a2
+3	355	6766660104783706	CMakeFiles/dbdemo.dir/main.cpp.obj	610b8bc65aa92bf
+355	520	6766660106414135	dbdemo.exe	4ecfa59c868504a2
+3	352	6766663267710994	CMakeFiles/dbdemo.dir/main.cpp.obj	610b8bc65aa92bf
+363	522	6766663269391417	dbdemo.exe	4ecfa59c868504a2
+4	335	6766663724209189	CMakeFiles/dbdemo.dir/main.cpp.obj	610b8bc65aa92bf
+335	510	6766663725899617	dbdemo.exe	4ecfa59c868504a2
+3	315	6766664847569565	CMakeFiles/dbdemo.dir/main.cpp.obj	610b8bc65aa92bf
+316	491	6766664849304527	dbdemo.exe	4ecfa59c868504a2
