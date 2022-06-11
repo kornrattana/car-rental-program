@@ -24,7 +24,7 @@ int main() {
     const char* data = "Callback function called";
 
     /* Open database */
-    rc = sqlite3_open("data.sqlite", &db);
+    rc = sqlite3_open("data.db", &db);
     if( rc ){
 
         fprintf(stderr, "Can't open database: %s\n", sqlite3_errmsg(db));
@@ -34,22 +34,8 @@ int main() {
         fprintf(stderr, "Opened database successfully\n");
     }
 
-    std::string sql_add_table = "CREATE TABLE PERSON("
-                 "ID INT PRIMARY KEY     NOT NULL, "
-                 "NAME           TEXT    NOT NULL, "
-                 "SURNAME          TEXT     NOT NULL, "
-                 "AGE            INT     NOT NULL, "
-                 "ADDRESS        CHAR(50), "
-                 "SALARY         REAL );";
-    rc = sqlite3_exec(db, sql_add_table.c_str(), callback, (void*)data, &zErrMsg);
-    if( rc != SQLITE_OK ){
+    printf("Test basic queries");
 
-        fprintf(stderr, "SQL error: %s\n", zErrMsg);
-        sqlite3_free(zErrMsg);
-    }else{
-
-        fprintf(stdout, "Table created successfully\n");
-    }
 
     sqlite3_close(db);
     return 0;
